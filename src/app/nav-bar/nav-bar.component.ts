@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { navdata } from '../data/nav-data';
 
 @Component({
   selector: 'app-nav-bar',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
+
+  items=navdata;
 
   constructor() { }
 
