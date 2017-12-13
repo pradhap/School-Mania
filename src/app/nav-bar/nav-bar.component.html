@@ -1,5 +1,8 @@
 <div class="sm-navbar-nav">
+    <span><a routerLink="home">Home</a></span>
     <ul>
-        <li *ngFor="let item of items">{{item.name | titlecase}}</li>
+        <li *ngFor="let item of items">
+           <a routerLink="{{item.value}}">{{item.name | titlecase}}</a> 
+        </li>
       </ul>
 </div>
