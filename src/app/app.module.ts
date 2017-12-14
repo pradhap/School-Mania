@@ -19,7 +19,7 @@ import { LoginComponent } from './login/login.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent },
+      { path: 'home', component: HomeComponent },
       { path: 'login', component: LoginComponent },
       { path: '**', component: HomeComponent },
     ])
